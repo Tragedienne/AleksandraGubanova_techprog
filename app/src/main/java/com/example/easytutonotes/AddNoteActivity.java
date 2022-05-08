@@ -17,13 +17,13 @@ public class AddNoteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_note);
 //Создание объектов ввода и кнопки "Сохранить"
-        EditText titleInput = findViewById(R.id.titleinput);
-        EditText descriptionInput = findViewById(R.id.descriptioninput);
+        final EditText titleInput = findViewById(R.id.titleinput);
+        final EditText descriptionInput = findViewById(R.id.descriptioninput);
         MaterialButton saveBtn = findViewById(R.id.savebtn);
 
 //Создание соединения с БД
         Realm.init(getApplicationContext());
-        Realm realm = Realm.getDefaultInstance();
+        final Realm realm = Realm.getDefaultInstance();
 
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
