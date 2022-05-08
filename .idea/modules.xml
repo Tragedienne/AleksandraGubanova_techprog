@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NOTEPAD.iml" filepath="$PROJECT_DIR$/.idea/modules/NOTEPAD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyTutoNotes.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyTutoNotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EasyTutoNotes.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EasyTutoNotes.app.iml" />
     </modules>
   </component>
 </project>
